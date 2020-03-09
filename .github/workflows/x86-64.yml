@@ -41,7 +41,7 @@ jobs:
 
       - name: Add feeds
         run: |
-        cd lede
+          cd lede
           echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
           echo "src-git openclash https://github.com/vernesong/OpenClash" >> feeds.conf.default 
 

@@ -84,6 +84,6 @@ jobs:
           
       - name : Upload artifact
         uses: actions/upload-artifact@master
-          with:
-            name: OpenWrt
-            path: lede/bin
+        with:
+          name: OpenWrt
+          path: lede/bin

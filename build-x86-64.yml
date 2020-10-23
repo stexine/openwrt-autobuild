@@ -51,7 +51,7 @@ jobs:
           cd lede/package
           git clone https://github.com/Baozisoftware/luci-app-koolproxy
           # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
-          git clone https://github.com/stexine/openwrt-extra.git
+          # git clone https://github.com/stexine/openwrt-extra.git
 
       - name: Update and install feeds
         run: |
